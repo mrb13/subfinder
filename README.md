@@ -69,7 +69,7 @@ SOURCE:
   -es, -exclude-sources string[]  sources to exclude from enumeration (-es alienvault,zoomeyeapi)
 
 FILTER:
-  -m, -match string[]   subdomain or list of subdomain to match (file or comma separated)
+  -m, -match string[]   subdomain or list of subdomain to match (file or comma separated). Use "*" as wildcard (e.g. "*api*"). 
   -f, -filter string[]   subdomain or list of subdomain to filter (file or comma separated)
 
 RATE-LIMIT:
